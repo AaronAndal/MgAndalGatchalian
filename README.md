@@ -10,3 +10,7 @@ Our homepage will be a hub that allows you to travel to the different webpages, 
 Our very first webpage will talk about the positives of gaming, which includes the benefits stated in the first paragraph, we will include studies to prove our points and have buttons that will allow us to travel to the different webpages and the homepage.
 <hr>
 <h4>2nd Webpage</h4>
+<hr>
+<h4>3th Webpage</h4>
+<hr>
+<h4>4rd Webpage</h4>
