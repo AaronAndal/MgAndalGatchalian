@@ -14,8 +14,7 @@ Our world today prevalently uses technology, including usage in leisure. Gaming 
   The second webpage will take a look at the flip side and discuss the negatives of overindulgement in gaming. We will include studies and firsthand accounts here in order to see the topic's points, and have proper navigation from here to other webpages as well. 
 <hr>
 <h4>3rd Webpage - How Popularity Affected Gaming</h4>
-  Our third webpage will contain information on how gaming has been more accepted into the mainstream, and how as it got popular, we changed gaming as much as gaming changed us.
+  Our third webpage will contain information on how gaming has been more accepted into the mainstream, and how when things become popular
 <hr>
-<h4>4th Webpage</h4>
-
-<h1>Matdematics</h1>
+<h4>4th Webpage - Some cases of severe gaming detriment</h4>
+  Similar to the second webpage, the fourth webpage discusses people who've experienced and/or suffered from gaming addictions, and hopefully show that gaming is good, but only in moderation.
