@@ -13,7 +13,9 @@ Our world today prevalently uses technology, including usage in leisure. Gaming 
 <h4>2nd Webpage - Negatives</h4>
   The second webpage will take a look at the flip side and discuss the negatives of overindulgement in gaming. We will include studies and firsthand accounts here in order to see the topic's points, and have proper navigation from here to other webpages as well. 
 <hr>
-<h4>3rd Webpage - How Popularity Affected it</h4>
+<h4>3rd Webpage - How Popularity Affected Gaming</h4>
   Our third webpage will contain information on how gaming has been more accepted into the mainstream, and how when things become popular
 <hr>
 <h4>4th Webpage</h4>
+
+<h1>Matdematics</h1>
