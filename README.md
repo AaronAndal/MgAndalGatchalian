@@ -10,6 +10,7 @@ Our homepage will be a hub that allows you to travel to the different webpages, 
 Our very first webpage will talk about the positives of gaming, which includes the benefits stated in the first paragraph, we will include studies to prove our points and have buttons that will allow us to travel to the different webpages and the homepage.
 <hr>
 <h4>2nd Webpage</h4>
+The second webpage will take a look at the flip side and discuss the negatives of overindulgement in gaming. We will include studies and firsthand accounts here in order to see the topic's points, and have proper navigation from here to other webpages as well. 
 <hr>
 <h4>3th Webpage</h4>
 Our thrd webpage will contain information on how gaming has been more accepted into the mainstream, and how when things become popular
