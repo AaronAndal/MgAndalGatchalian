@@ -18,3 +18,7 @@ Our world today prevalently uses technology, including usage in leisure. Gaming 
 <hr>
 <h4>4th Webpage - Some cases of severe gaming detriment</h4>
   Similar to the second webpage, the fourth webpage discusses people who've experienced and/or suffered from gaming addictions, and hopefully show that gaming is good, but only in moderation.
+  <hr>
+  <h3>Wireframe</h3>
+  The Wireframe for the Homepage and two other webpages can be found here!
+  https://www.canva.com/design/DAFMXX8CqtQ/YAbNvd4UG6RiM7K4bc4XOg/edit?utm_content=DAFMXX8CqtQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
