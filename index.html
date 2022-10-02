@@ -7,33 +7,51 @@
   <meta name="author" content="Andal and Gatchalian">
   <meta name="keywords" content="Positives of Gaming, Negatives of Gaming, Gaming, Gamers, Games">
   <meta name="revised" content="24-09-2022">
+  <link rel="stylesheet" href="style.css" type="text/css" />
 
 </head>
 
-<body background="images/bg.png">
+<body style="overflow: auto; height: 1300px;">
 
-  <div>
+  <div class="stickyheader">
+    <a style="text-decoration: none;" href="index.html"> <img id="logo" src="images/gaming duality logo.png"></a>
     <h1>
-      <a style="text-decoration: none;" href="index.html"> <img src="images/gaming duality logo.png"
-          alt="Duality of Gaming Logo"> </a>
-
-      <span>Duality of Gaming</span>
+      Duality of Gaming
     </h1>
+
+    <form style="float: right">
+      <input type="text" placeholder="Search..." name="search">
+    </form>
+
   </div>
-  <a href="webpages/webpage1.html"><img src="images/positives of gaming scroll.png"
-      alt="Click for the Positives of Gaming"></a>
-  <br>
-  <a href="webpages/webpage2.html"><img src="images/negatives of gaming scroll.png"
-      alt="Click for the Negatives of Gaming"></a>
-  <br>
-  <a href="webpages/webpage3.html"><img src="images/gaming history and popularity scroll.png"
-      alt="Click for the History and Reason for Popularity of Gaming"></a>
-  <br>
-  <a href="webpages/webpage4.html"><img src="images/stories of gaming addiction scroll.png"
-      alt="Click for Some Stories of Gaming Addiction"></a>
-  <br>
+
+  <div class="whitescroll" style="position: absolute; left: 0; top: 100px;">
+    <a href="webpages/webpage1.html">
+      <p class="scrollcontainedwhite">Positives of Gaming</p>
+    </a>
+  </div>
+
+  <div class="blackscroll" style="position: absolute; left: 0; top: 300px;">
+    <a href="webpages/webpage2.html">
+      <p class="scrollcontainedblack">Negatives of Gaming</p>
+    </a>
+  </div>
+
+  <div class="whitescroll" style="position: absolute; left: 0; top: 500px;">
+    <a href="webpages/webpage3.html">
+      <p class="scrollcontainedwhite">Gaming's History and Popularity</p>
+    </a>
+  </div>
+
+  <div class="blackscroll" style="position: absolute; left: 0; top: 700px;">
+    <a href="webpages/webpage4.html">
+      <p class="scrollcontainedblack">Stories of Gaming Addiction</p>
+    </a>
+
+    <p id="easteregg"> This is an Easter Egg</p>
+
+  </div>
+
 </body>
-
-
 
 </html>

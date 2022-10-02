@@ -1,3 +1,64 @@
-    #whitebackground {
-      background-image: images/whitebackground.png;
-    }
+
+body {
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 4800px, 4800px;
+  
+}
+#logo {
+  length: 90px;
+  width: 90px;
+  float: left;
+}
+.stickyheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: whitesmoke;
+  z-index: 1;
+}
+p {
+  font-family: "open sans";
+}
+h1 {
+  font-family: papyrus;
+}
+.whitescroll {
+  background-image: url(images/whitescroll.png);
+  width: 555px;
+  height: 382px;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  font-size: 35px;
+  text-align: center;
+  overflow: auto;
+}
+.blackscroll {
+  background-image: url(images/blackscroll.png);
+  width: 555px;
+  height: 382px;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  font-size: 35px;
+  text-align: center;
+  overflow: auto;
+}
+#easteregg{
+  position: fixed;
+  left: 1000px;
+  top: 2000px;
+}
+.scrollcontainedblack {
+  padding-top: 25px;
+  color: white;
+  text-decoration: none;
+}
+.scrollcontainedwhite {
+  padding-top: 25px;
+  color: black;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
