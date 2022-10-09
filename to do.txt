@@ -1,8 +1,12 @@
 To Do:
+
 Update non-home web pages - Claimed by: Joaquin
 Add Footer - Claimed by: Aaron
-Update black and white scroll images - Claimed by: Joaquin
 Add content - Claimed by: Joaquin
 Make search bar work - Claimed by: Aaron (but not now)
-Improve design - Claimed by: None
-replace text after to Claimed by [name] to tell that the task is going to be done by you.
+Add new background image - Claimed by: None
+Improve Design and Layout - Claimed by: Aaron
+Add Footer Content - Claimed by: Aaron
+Add Header Content - Claimed by: None
+
+replace text after to Claimed by: [name] to tell that the task is going to be done by you.
