@@ -3,13 +3,20 @@
 body {
   background-image: url("images/bg.png");
   background-repeat: no-repeat;
-  background-size: 4800px, 4800px;
+  background-size: 120%, 120%;
 }
 .logo {
-  length: 90px;
+  height: 90px;
   width: 90px;
   float: left;
+  transition: transform 1.25s;
+  transform-origin: 46% 46%;
 }
+
+.logo:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+
 .stickyheader {
   position: fixed;
   top: 0;
@@ -35,6 +42,7 @@ h1 {
   background-repeat: no-repeat;
   font-size: 35px;
   text-align: center;
+  transition: transform .2s
 }
 .blackscroll {
   background-image: url(images/blackscroll.png);
@@ -44,6 +52,7 @@ h1 {
   background-repeat: no-repeat;
   font-size: 35px;
   text-align: center;
+  transition: transform .2s
 }
 #easteregg {
   position: fixed;
@@ -65,12 +74,13 @@ h1 {
 a {
   text-decoration: none;
 }
+
 .blackscroll:hover {
-  scale: 110%;
+  transform: scale(1.1);
   object-fit: fill;
 }
 .whitescroll:hover {
-  scale: 110%;
+  transform: scale(1.1);
   object-fit: fill;
 }
 .paragraphstart {
@@ -78,11 +88,47 @@ a {
 }
 .subtext {
   font-size: 10px;
+  display: block;
+  background: grey;
 }
 .headerlink {
 padding-left: 50px;
+display: inline-block;
 color: black;
 }
-.headerlink:hover {
-  text-decoration: underline;
+.headerlink:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+.headerlink:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+  
+#titlebox {
+  background-image: url(images/headerimage.png);
+  background-repeat: no-repeat;
+  width: 626px;
+  height: 393px;
+  text-align: center;
+  }
+.titleboxtext {
+  padding-top: 120px;
+}
+
+#paragraphP1 {
+  background-color: grey;
+  clear:left;
+  padding: 10px;
+  margin: 5px;
+  width: 600px;
 }

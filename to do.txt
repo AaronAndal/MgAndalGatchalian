@@ -4,7 +4,7 @@ Update non-home web pages - Claimed by: Joaquin
 Add Footer - Claimed by: Aaron
 Add content - Claimed by: Joaquin
 Make search bar work - Claimed by: Aaron (but not now)
-Add new background image - Claimed by: None
+Add new background image - Claimed by: Joaquin
 Improve Design and Layout - Claimed by: Aaron
 Add Footer Content - Claimed by: Aaron
 Add Header Content - Claimed by: None
