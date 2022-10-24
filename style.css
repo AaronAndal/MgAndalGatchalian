@@ -3,7 +3,8 @@
 body {
   background-image: url("images/bg.png");
   background-repeat: no-repeat;
-  background-size: 120%, 120%;
+  background-size: 150%, 150%;
+  background-color: grey;
 }
 .logo {
   height: 90px;
@@ -44,6 +45,18 @@ h1 {
   text-align: center;
   transition: transform .2s
 }
+
+.whitescrollDOOP {
+  background-image: url(images/whitescroll.png);
+  width: 555px;
+  height: 166px;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  font-size: 35px;
+  text-align: center;
+  transition: transform .2s
+}
+
 .blackscroll {
   background-image: url(images/blackscroll.png);
   width: 555px;
@@ -54,6 +67,18 @@ h1 {
   text-align: center;
   transition: transform .2s
 }
+
+.blackscrollDOOP {
+  background-image: url(images/blackscroll.png);
+  width: 555px;
+  height: 178px;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  font-size: 35px;
+  text-align: center;
+  transition: transform .2s
+}
+
 #easteregg {
   position: fixed;
   left: 1000px;
@@ -65,12 +90,28 @@ h1 {
   color: white;
   text-decoration: none;
 }
+
+.scrollcontainedblackDOOP {
+  font-family: 'Silkscreen', cursive;
+  padding-top: 20px;
+  color: white;
+  text-decoration: none;
+}
+
 .scrollcontainedwhite {
   font-family: 'Silkscreen', cursive;
   padding-top: 20px;
   color: black;
   text-decoration: none;
 }
+
+.scrollcontainedwhiteDOOP {
+  font-family: 'Silkscreen', cursive;
+  padding-top: 20px;
+  color: black;
+  text-decoration: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -79,8 +120,16 @@ a {
   transform: scale(1.1);
   object-fit: fill;
 }
+.blackscrollDOOP:hover {
+  transform: scale(1.04);
+  object-fit: fill;
+}
 .whitescroll:hover {
   transform: scale(1.1);
+  object-fit: fill;
+}
+.whitescrollDOOP:hover {
+  transform: scale(1.04);
   object-fit: fill;
 }
 .paragraphstart {
@@ -114,21 +163,18 @@ color: black;
   transform-origin: center;
 }
   
-#titlebox {
-  background-image: url(images/headerimage.png);
-  background-repeat: no-repeat;
-  width: 626px;
-  height: 393px;
-  text-align: center;
-  }
 .titleboxtext {
   padding-top: 120px;
 }
 
 #paragraphP1 {
-  background-color: grey;
+background-color: rgba(128, 128, 128, 65%);
   clear:left;
   padding: 10px;
   margin: 5px;
   width: 600px;
+  text-indent: 10px;
+}
+h1 > p {
+    font-family: papyrus;
 }
