@@ -10,3 +10,7 @@ Add Footer Content - Claimed by: Aaron
 Add Header Content - Claimed by: None
 
 replace text after to Claimed by: [name] to tell that the task is going to be done by you.
+
+Add the following images:
+https://www.bing.com/images/search?view=detailV2&ccid=%2bhXQE7Go&id=4E9AD957C3734AB7F495DA3D6F5E4251D5C87375&thid=OIP.-hXQE7GoGVhM3peXdR9AdAGLCe&mediaurl=https%3a%2f%2fdavenportmobile.com%2fuploads%2f1%2f0%2f5%2f0%2f105049429%2fedited%2fhome2_4.jpg&exph=768&expw=1920&q=man+punching+monitor&simid=608053634475563992&FORM=IRPRST&ck=F4D8C7F0041881E538E58260ED5236B8&selectedIndex=2&ajaxhist=0&ajaxserp=0
+https://www.bing.com/images/search?view=detailV2&ccid=DDhuh9TO&id=C722E662C875C01D0471235741BDF298ED18AAEC&thid=OIP.DDhuh9TOE5bGzXW3n6C9JQHaGW&mediaurl=https%3a%2f%2fstatic.fanpage.it%2fwp-content%2fuploads%2fsites%2f22%2f2019%2f08%2fDopamine.jpg&exph=1603&expw=1870&q=dopamine&simid=608030497484182979&FORM=IRPRST&ck=4988A2C4FD5ED487680CB3B10C001AE7&selectedIndex=1&ajaxhist=0&ajaxserp=0

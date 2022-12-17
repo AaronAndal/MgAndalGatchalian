@@ -27,7 +27,8 @@ body {
   left: 0;
   width: 100%;
   background: whitesmoke;
-  z-index: 2;
+  z-index: 200;
+  opacity: 0.99;
 }
 .stickyheader > h1, p {
   display: inline-block;
@@ -39,27 +40,34 @@ p {
 h1 {
   font-family: papyrus;
 }
+aside {
+  float: right;
+  width: 25%;
+  display: inline;
+}
 .whitescroll {
   background-image: url(images/whitescroll.png);
+  position: relative;
   width: 555px;
   height: 166px;
   object-fit: fill;
   background-repeat: no-repeat;
   font-size: 35px;
   text-align: center;
-  transition: transform .2s
+  transition: transform .2s;
   float: left;
+  clear: both;
 }
 
 .whitescrollDOOP {
   background-image: url(images/whitescroll.png);
-  width: 555px;
-  height: 166px;
+  width: 30vw;
+  height: 25vh;
   object-fit: fill;
   background-repeat: no-repeat;
   font-size: 35px;
   text-align: center;
-  transition: transform .2s
+  transition: transform .2s;
 }
 
 .blackscroll {
@@ -70,19 +78,20 @@ h1 {
   background-repeat: no-repeat;
   font-size: 35px;
   text-align: center;
-  transition: transform .2s
+  transition: transform .2s;
   float: left;
+  clear: both;
 }
 
 .blackscrollDOOP {
   background-image: url(images/blackscroll.png);
-  width: 555px;
-  height: 178px;
+  width: 30vw;
+  height: 25vh;
   object-fit: fill;
   background-repeat: no-repeat;
   font-size: 35px;
   text-align: center;
-  transition: transform .2s
+  transition: transform .2s;
 }
 
 #easteregg {
@@ -102,7 +111,6 @@ h1 {
   padding-top: 20px;
   color: white;
   text-decoration: none;
-  font-size: 30px;
 }
 
 .scrollcontainedwhite {
@@ -117,7 +125,7 @@ h1 {
   padding-top: 20px;
   color: black;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 75%;
 }
 
 a {
@@ -133,7 +141,8 @@ a {
   object-fit: fill;
 }
 .whitescroll:hover {
-  transform: scale(1.1);
+  z-index: 50;
+  -webkit-transform: scale(1.1);
   object-fit: fill;
 }
 .whitescrollDOOP:hover {
@@ -180,11 +189,11 @@ color: black;
 
 #paragraphP1 {
 background-color: rgba(128, 128, 128, 65%);
-  clear:left;
   padding: 10px;
   margin: 5px;
-  width: 600px;
+  width: 75%;
   text-indent: 10px;
+  display: inline;
 }
 h1 > p {
     font-family: papyrus;
@@ -200,40 +209,124 @@ iframe {
 }
 
 .extratext {
-  height: 100px;
-  width: 200px;
-  float: left;
-  transition: transform 1.25s;
-  transform-origin: 50% 50%;
-  z-index: 50;
+  height: 175px;
+  width: 250px;
+  left: 600px;
+  background-color: lightgray;
+  font-size: 15px;
 }
 
-
-.extratext:hover {
-  transform: translate(500px, 0);
+#onew .extratext {
+  opacity: 0.0;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
 }
 
-.extratext:hover {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 1s;
+#oneb:hover .extratext{
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
 }
 
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+#oneb .extratext {
+  opacity: 0.0;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+
+#onew:hover .extratext{
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+}
+
+#twow .extratext {
+  opacity: 0.0;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+
+#twob:hover .extratext{
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+}
+
+#twob .extratext {
+  opacity: 0.0;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+
+#twow:hover .extratext{
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
 }
 
 footer {
-  background-color: grey;
+  background-color: whitesmoke;
   width: 100%;
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.9;
 }
 li {
   list-style-type: none;
+}
+
+ul {
+  display: inline-block;
+}
+
+.gamerimg {
+  width: 150px; height: 85px;
+}
+
+
+
+.fbsprite {
+	background: url('images/icon.png') no-repeat -179px -92px;
+	width: 37px;
+	height: 37px;
+}
+
+.fbsprite:hover {
+	background: url('images/icon.png') no-repeat -180px -18px;
+	width: 37px;
+	height: 37px;
+}
+
+.emailsprite {
+  background: url('images/icon.png') no-repeat -8px -92px;
+	width: 37px;
+	height: 37px;
+}
+
+.emailsprite:hover {
+  background: url('images/icon.png') no-repeat -7px -16px;
+	width: 37px;
+	height: 37px;
+}
+
+.imgspage2 {
+  position: absolute;
+  top: 300px;
+  height: 100vh;
+}
+
+#vertical {
+  height: 200vh;
+  margin: 0px auto;
+  border: 5px solid whitesmoke;
+  width: 10px;
 }
